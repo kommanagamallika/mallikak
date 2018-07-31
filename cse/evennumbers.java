@@ -17,7 +17,7 @@ class Ideone
 	    for(int i=m+1; i<n; i++)
         {
             if(i%2==0)
-                System.out.print(i+" ");
+                System.out.println(i+" ");
         }  
 			System.out.println();
 	
