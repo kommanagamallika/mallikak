@@ -10,7 +10,7 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 
-        char ch;
+        char c;
         Scanner sc=new Scanner(System.in);
 	//System.out.println("Enter a character : ");
 	char ch=sc.next( ).charAt(0);	 
