@@ -11,12 +11,12 @@ class Ideone
 	{
 	         Scanner in = new Scanner(System.in);
         int AP;
-        int a,n,d;
+        int N,A,D;
         Scanner s=new Scanner(System.in);
-        a=s.nextInt();
-        n=s.nextInt();
-        d=s.nextInt();
-        AP=a+(n-1)*d;
-        System.out.println(AP);
+        N=s.nextInt();
+        A=s.nextInt();
+        D=s.nextInt();
+      
+        System.out.println(N*(2*A+(N-1)*D)/2);
 }
 	}
