@@ -16,7 +16,7 @@ class Ideone
 		  b=(n.matches("-?\\d+(\\.\\d+)?"));
 		  if(b)
 		  {
-		  	System.out.print("yes");
+		  	System.out.print("Yes");
 		  	
 		  }
 		  else
