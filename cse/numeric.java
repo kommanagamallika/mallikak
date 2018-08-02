@@ -16,12 +16,12 @@ class Ideone
 		  b=(n.matches("-?\\d+(\\.\\d+)?"));
 		  if(b)
 		  {
-		  	System.out.print("Yes");
+		  	System.out.print("yes");
 		  	
 		  }
 		  else
 		  {
-		  	System.out.print("no");
+		  	System.out.print("No");
 		  }
 	}
 }
