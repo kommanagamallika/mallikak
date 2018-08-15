@@ -9,28 +9,16 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int[] a=new int[10];
-		int m,n,temp;
-		Scanner sc=new Scanner(System.in);
-		m=sc.nextInt();
-		n=sc.nextInt();
-		for(int i=0;i<m;i++)
-		{
-			a[i]=sc.nextInt();
-		}
-		temp=0;
-		for(int i=0;i<m;i++)
-		{
-			for(int j=i+1;j<m;j++)
-			{
-				if(a[i]>a[j])
-				{
-					temp=a[i];
-					a[i]=a[j];
-					a[j]=temp;
-				}
-			}
-		}
-		System.out.print(a[n-1]);
+		 int l, b, h;
+        int area,volume;
+        Scanner s = new Scanner(System.in);
+        
+        l = s.nextInt();
+                b = s.nextInt();
+                h = s.nextInt();
+        area = 2 * ((l * b) + (b * h) + (h * l));
+       
+        volume=l * b * h;
+        System.out.println(area+" "+volume);
 	}
 }
