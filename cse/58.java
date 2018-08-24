@@ -29,9 +29,9 @@ class Ideone
 		}
 	}
 	if(count>=1)
-	System.out.print("Yes");
+	System.out.print("yes");
 	else
-		System.out.print("No");
+		System.out.print("no");
 
 	
 }}
