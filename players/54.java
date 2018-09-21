@@ -10,16 +10,16 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		String s1,s2;
+		String a1,s2;
 		int m,n,k=0;
 		Scanner sc=new Scanner(System.in);
-		s1=sc.next();
+		a1=sc.next();
 		s2=sc.next();
-		 m=s1.length();
+		 m=a1.length();
 		n=s2.length();
 		if(m==n){
 	            for(int i=0;i<n;i++){
-                        if(s1.charAt(i)==s2.charAt(i)){
+                        if(a1.charAt(i)==s2.charAt(i)){
                         	k++;
                         }
                 	}
